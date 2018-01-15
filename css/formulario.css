@@ -1,0 +1,69 @@
+.formulario {
+    background: url("../images/casas_rurales.jpg") no-repeat;
+    background-size: 100%;
+    background-clip: border-box;
+    border: 1px solid #333;
+}
+
+.formulario h2 {
+    font-family: 'Fuente3';
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.formulario input {
+    width: 300px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+#buscar {
+    border-radius: 0;
+    background:url(../icons/search.png) no-repeat;
+    background-size: 30px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: 1px;
+    padding: 1px;
+}
+
+@media screen and (max-width: 768px) {
+ 
+    .formulario h2{
+        font-size: 1.5rem;
+    }
+    
+    .formulario form {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        
+    }
+    
+    .formulario input {
+        width: 200px;
+        margin: 1px;
+    }
+     
+}
+
+@media screen and (min-width: 768px) {
+    .formulario {
+        text-align: center;
+    }
+    
+    .formulario h2 {
+        font-size: 3rem;
+    }
+    
+    .formulario form {
+        display: inline;
+        
+    }
+
+}

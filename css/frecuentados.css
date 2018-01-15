@@ -1,0 +1,44 @@
+.frecuentados {
+    display: inline;
+}
+
+.frecuentados h2 {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.frecuentados img {
+    max-height: 150px;
+    width: 100%px;
+}
+
+.frecuentados article {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin: 1%;
+    padding: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .frecuentados {
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        flex-basis: 40%;
+        justify-content: center;
+    }
+
+    .frecuentados h2 {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .frecuentados article {
+        width: 40%;
+        margin: 2%;
+    }
+
+}

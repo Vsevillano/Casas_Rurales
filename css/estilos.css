@@ -1,0 +1,29 @@
+@import url(menu.css);
+@import url(formulario.css);
+@import url(info.css);
+@import url(destinos.css);
+@import url(frecuentados.css);
+@import url(footer.css);
+
+
+@font-face { 
+    font-family: 'Fuente1'; 
+    src: url(../fonts/Roboto-Regular-webfont.ttf);
+}
+
+@font-face { 
+    font-family: 'Fuente2'; 
+    src: url(../fonts/SedgwickAveDisplay-Regular.ttf);
+}
+
+@font-face { 
+    font-family: 'Fuente3'; 
+    src: url(../fonts/Lobster-Regular.ttf);
+}
+
+body {
+    font-family: 'Fuente1';
+    font-size: 16px;
+    color: #1B1D1D;
+}
+

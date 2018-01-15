@@ -1,0 +1,30 @@
+.info article{
+    text-align: justify;
+    border: 1px solid #333;
+    background-color: rgba(240, 236, 236, 0.527);
+    padding: 10px;
+}
+
+.info p{
+    font-size: 12px;
+}
+
+.info h2 {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .info article p {
+        font-size: 10px;
+    }
+     
+}
+
+@media screen and (min-width: 768px) {
+    
+    .info {
+        display: flex;
+    }
+
+}
