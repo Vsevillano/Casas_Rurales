@@ -1,5 +1,6 @@
 .destinos {
     display: block;
+    padding-bottom: 10px;
 }
 
 
@@ -8,6 +9,11 @@
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     margin: 5px 0px ;
     padding: 5px;  
+}
+
+.destinos article:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
 }
 .destinos h2 {
     font-size: 20px; 

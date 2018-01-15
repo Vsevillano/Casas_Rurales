@@ -2,7 +2,7 @@
     background: url("../images/casas_rurales.jpg") no-repeat;
     background-size: 100%;
     background-clip: border-box;
-    border: 1px solid #333;
+    border: 1px solid #C8E6C9;
 }
 
 .formulario h2 {
@@ -63,7 +63,12 @@
     
     .formulario form {
         display: inline;
-        
     }
 
 }
+
+@media screen and (min-width: 1024px) {
+    .formulario {
+        padding-bottom: 50px;
+    }
+}  
