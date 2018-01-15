@@ -34,9 +34,10 @@
     .frecuentados {
         display: flex;
         flex-flow: row;
+        flex-direction: row;
         flex-wrap: wrap;
-        flex-basis: 40%;
         justify-content: center;
+        
     }
 
     .frecuentados h2 {
@@ -45,8 +46,8 @@
     }
 
     .frecuentados article {
-        width: 40%;
-        margin: 2%;
+        width: 29%;
+        margin: 1%;
     }
 
 }
