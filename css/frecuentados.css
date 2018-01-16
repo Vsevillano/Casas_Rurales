@@ -6,9 +6,9 @@
 
 .frecuentados h2 {
     font-family: 'Fuente3';
-    font-size: 20px; 
     text-align: center;
     padding: 20px;
+    font-size: 20px;
 }
 
 .frecuentados img {
@@ -46,7 +46,9 @@
         display: inline-block;
         width: 100%;
         text-align: left;
-        padding: 40px;
+        padding: 20px;
+        font-size: 1.8rem; 
+
     }
 
     .frecuentados article {

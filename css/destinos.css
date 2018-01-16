@@ -69,9 +69,10 @@
     }
 
     .destinos h2 {
+        font-size: 1.8rem;
         display: inline-block;
         width: 100%;
-        padding: 40px;
+        padding: 20px;
         text-align: left;   
     }
 
