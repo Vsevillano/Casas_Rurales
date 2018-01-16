@@ -1,14 +1,14 @@
 .destinos {
     display: block;
     padding-bottom: 10px;
+    background-color: #E8F5E9;
 }
-
-
 
 .destinos article {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     margin: 5px 0px ;
     padding: 5px;  
+    background-color: white;
 }
 
 .destinos article:hover {
@@ -16,8 +16,9 @@
 
 }
 .destinos h2 {
+    font-family: 'Fuente3';
     font-size: 20px; 
-    padding-left: 10px;
+    text-align: center;
 }
 
 .destinos h3 {
@@ -52,6 +53,10 @@
         margin: 20px;
         padding: 20px;
     }
+
+    .destinos h3 {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -66,11 +71,18 @@
     .destinos h2 {
         display: inline-block;
         width: 100%;
+        padding: 40px;
+        text-align: left;   
+    }
+
+    .destinos h3  {
+        font-size: 1.1rem;
     }
 
     .destinos article {
         width: 40%;
         margin: 2%;
     }
+
 
 }

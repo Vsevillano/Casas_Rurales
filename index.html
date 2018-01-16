@@ -26,9 +26,12 @@
         <section class="formulario">
             <h2>Reserve su escapada perfecta</h2>
             <form action="">
-                <input type="text" name="" id="" placeholder="Ciudad, provincia...">
-                <input type="date" name="" id="" placeholder="Fecha de entrada">
-                <input type="date" name="" id="" placeholder="Fecha de salida">
+                <label for="Destino">Destino</label>
+                <input type="text" name="Destino" id="" placeholder="Ciudad, provincia...">
+                <label for="Entrada">Entrada</label>
+                <input placeholder="Fecha de entrada" type="text" onfocus="(this.type='date')"  id="date"> 
+                <label for="Salida">Salida</label>
+                <input placeholder="Fecha de salida" type="text" onfocus="(this.type='date')"  id="date"> 
                 <input type="button" id="buscar" value="">
             </form>
         </section>
@@ -49,7 +52,7 @@
         </section>
         
         <section class="destinos">
-            <h2>Mejores destinos</h2>
+            <h2>Nuestros mejores destinos</h2>
             
             <article>
                 <img src="images/destino1.jpg" alt="Casa rural">
@@ -70,7 +73,7 @@
         </section>
         
         <section class="frecuentados">
-            <h2>Alojamientos frecuentados</h2>
+            <h2>Alojamientos más frecuentados</h2>
             
             <article>
                 <img src="images/frecuentados1.jpg" alt="Destino frecuentado">

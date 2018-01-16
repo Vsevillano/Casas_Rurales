@@ -1,9 +1,11 @@
 footer {
-    background-color: #43A047;
+    background-color: #1B5E20    ;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 15px;
+
 }
 
 footer p {
@@ -18,6 +20,7 @@ footer img {
     max-height: 50px;
     max-width: 50px;
     margin: 1%;
+
 }
 
 footer a {
@@ -39,3 +42,11 @@ footer img:hover {
     padding: 0px;
 }
 
+
+@media screen and (min-width: 1024px) {
+
+    footer p {
+        font-size: 1.3rem;
+    }
+
+}
