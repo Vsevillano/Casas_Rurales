@@ -13,8 +13,9 @@
 
 .destinos article:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-
 }
+
+
 .destinos h2 {
     font-family: 'Fuente3';
     font-size: 20px; 
@@ -55,7 +56,13 @@
     }
 
     .destinos h3 {
+        text-decoration: none;
         font-size: 1rem;
+        color: rgb(7, 80, 10);
+    }
+
+    .destinos a {
+        text-decoration: none;
     }
 }
 
@@ -78,11 +85,17 @@
 
     .destinos h3  {
         font-size: 1.1rem;
+        color: rgb(7, 80, 10);
+
     }
 
     .destinos article {
         width: 40%;
         margin: 2%;
+    }
+
+    .destinos a {
+        text-decoration: none;
     }
 
 
