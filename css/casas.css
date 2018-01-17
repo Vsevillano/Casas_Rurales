@@ -47,6 +47,18 @@
     text-align: left;
 }
 
+.reserva input {
+    margin: auto;
+    padding-right: 5%;
+}
+
+.reserva input[type="checkbox"] {
+    width: 20px;
+    margin: 0;
+    display: inline-block;
+    padding-right: 5%;
+}
+
 .reserva form {
     width: 100%;
     display: flex;
@@ -102,6 +114,12 @@
         display: none;
     }
 
+    .reserva {
+        display: flex;
+        justify-content: center;
+
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -149,4 +167,15 @@
         justify-content: center;
 
     }
+
+
+
+    .reserva p {
+        display: inline-block;
+    }
+    .reserva a {
+        display: inline-block;
+    }
+
+
 }
